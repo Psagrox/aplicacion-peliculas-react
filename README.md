@@ -21,3 +21,6 @@ Sigue estos pasos para clonar y ejecutar la aplicación localmente:
 1. Clona el repositorio:
    ```bash
    git clone https://github.com/tu-usuario/movieapp.git
+
+## Demo ✨
+https://aplicacion-peliculas-react-argentina.netlify.app/
