@@ -2,11 +2,11 @@ import { useState } from 'react'
 import './MovieApp.css'
 
 export const MovieApp = () => {
-    const [search, setSearch] = useState('second')
+    const [search, setSearch] = useState('')
     const [movieList, setMovieList] = useState(null)
     
     const urlBase = 'https://api.themoviedb.org/3/search/movie'
-    const API_KEY = 'acf5472e45e436d5026bfd4c5e792981'
+    const API_KEY = 'YOUR_API_KEY'
 
     const handleInputChange = ({target}) => {
         setSearch(target.value)
